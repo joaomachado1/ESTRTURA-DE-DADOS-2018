@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 int main (){
-	
+
+char p;	
 int vet[2][3];
 int a=1;
 for (int x=0; x<=1; x++){
@@ -15,10 +16,7 @@ for (int x=0; x<=1; x++){
 			if(a>=10){
 				a=a+10;
 			}
-//			if (a=4){
-//				a=10;
 			else{
-//			(a>=10);
 			a=10;
 			}
 		}
@@ -33,6 +31,7 @@ for (int x=0; x<=1; x++){
 	}
 	printf("\n");
 }
-
+printf("\n");
+system("pause");
 
 }
