@@ -1,0 +1,34 @@
+1)
+a - Encrementa o endereço de p (ponteiro) para a proximo posição disponivel.
+b - Encrementa +1 no valor que a variavel aponta.
+c - Encrementa o endereço de p (ponteiro) para a proximo posição disponivel. e acessa o conteudo depois de encrementado.
+
+2) Aumenta o valor do endereço em mais 10 "Casas pra frente" e pega o conteudo desde endereço.
+
+3) 4.
+
+4) 
+
+int main()
+{
+	int x, *p, **q;
+	p = &x;
+	q = &p;
+	x = 10;
+	printf("\n%d\n", **q); 
+	return(0);
+}
+
+
+6) V, V, F, F, F, V, V, V, F, V
+
+7)
+a - O ponteiro não recebe valor, então tem lixo
+b - Na 4ª linhas o correto seria  p=&x
+
+8)x = 3, y = 4. p apontando para y (*p = 4)
+
+9)
+a - por ser um ponteiro, p deveria receber o endereço da varieal x. p = &x
+b - * temp
+c - erro no printf
